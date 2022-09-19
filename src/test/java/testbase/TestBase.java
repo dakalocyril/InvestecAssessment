@@ -43,6 +43,11 @@ public class TestBase {
 			System.setProperty("webdriver.edge.driver", System.getProperty("user.dir") + "\\drivers\\msedgedriver.exe");
 			driver = new EdgeDriver();
 		}
+
+		else
+		{
+			System.out.println("Browsername is invalid");
+		}
 		
 		driver.manage().window().maximize();
 		driver.get(baseURL);
