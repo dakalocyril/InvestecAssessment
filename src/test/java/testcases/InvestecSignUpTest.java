@@ -18,7 +18,6 @@ public class InvestecSignUpTest extends TestBase {
 		investec.searchInput();
 		investec.searchBtn();
 		investec.searchResults(0);
-		//driver.findElement(By.xpath("//button[@class='button-primary content-hub-form-container__button js-content-hub-form-container-button']")).click();
 		investec.btnSignUp();
 		investec.signupTexBoxName();
 		investec.relevantInsight();
